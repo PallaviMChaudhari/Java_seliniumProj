@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGVerification.PolicyBazarVerify">
+      <class name="pratikProj.PolicyBazar_Test_Utility_Base">
         <methods>
-          <include name="loginProcess"/>
-          <include name="lanuchPolicyBazaar"/>
-          <include name="CloseBrow"/>
-          <include name="verifyUN"/>
-          <include name="logoutApp"/>
+          <include name="SigninToPolicyBazar"/>
+          <include name="verifyusername"/>
+          <include name="launchpolicybazar"/>
         </methods>
-      </class> <!-- testNGVerification.PolicyBazarVerify -->
+      </class> <!-- pratikProj.PolicyBazar_Test_Utility_Base -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,177 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Browser Launch successfully.. ]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[click on Signin..]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[take input from excel...]]>
-    </line>
-    <line>
-      <![CDATA[enter mobile number...]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[take input from excel...]]>
-    </line>
-    <line>
-      <![CDATA[enter password..]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[click on sign button..]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[click on MyAccount]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[Click on my Profile]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[Focus change to child window]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[TC executions is Start...]]>
-    </line>
-    <line>
-      <![CDATA[get User Name...]]>
-    </line>
-    <line>
-      <![CDATA[Wait for sometimes...]]>
-    </line>
-    <line>
-      <![CDATA[take input from excel...]]>
-    </line>
-    <line>
-      <![CDATA[Screenshot is capture...]]>
-    </line>
-    <line>
-      <![CDATA[Tc is fail...]]>
-    </line>
-    <line>
-      <![CDATA[Logout Applications..]]>
-    </line>
-    <line>
-      <![CDATA[Close browser window....]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-07-04T20:51:18 IST" name="Default suite" finished-at="2023-07-04T20:54:00 IST" duration-ms="162546">
+  <suite started-at="2023-07-11T16:57:06 IST" name="Suite" finished-at="2023-07-11T16:59:17 IST" duration-ms="130647">
     <groups>
     </groups>
-    <test started-at="2023-07-04T20:51:18 IST" name="Default test" finished-at="2023-07-04T20:54:00 IST" duration-ms="162546">
-      <class name="testNGVerification.PolicyBazarVerify">
-        <test-method is-config="true" signature="lanuchPolicyBazaar()[pri:0, instance:testNGVerification.PolicyBazarVerify@b2c9a9c]" started-at="2023-07-04T20:51:18 IST" name="lanuchPolicyBazaar" finished-at="2023-07-04T20:51:56 IST" duration-ms="37991" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Browser Launch successfully.. ]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- lanuchPolicyBazaar -->
-        <test-method is-config="true" signature="loginProcess()[pri:0, instance:testNGVerification.PolicyBazarVerify@b2c9a9c]" started-at="2023-07-04T20:51:56 IST" name="loginProcess" finished-at="2023-07-04T20:52:36 IST" duration-ms="40169" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-            <line>
-              <![CDATA[click on Signin..]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-            <line>
-              <![CDATA[take input from excel...]]>
-            </line>
-            <line>
-              <![CDATA[enter mobile number...]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-            <line>
-              <![CDATA[take input from excel...]]>
-            </line>
-            <line>
-              <![CDATA[enter password..]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-            <line>
-              <![CDATA[click on sign button..]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-            <line>
-              <![CDATA[click on MyAccount]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-            <line>
-              <![CDATA[Click on my Profile]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-            <line>
-              <![CDATA[Focus change to child window]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- loginProcess -->
-        <test-method signature="verifyUN()[pri:0, instance:testNGVerification.PolicyBazarVerify@b2c9a9c]" started-at="2023-07-04T20:52:36 IST" name="verifyUN" finished-at="2023-07-04T20:52:59 IST" duration-ms="22569" status="FAIL">
-          <exception class="java.lang.AssertionError">
+    <test started-at="2023-07-11T16:57:06 IST" name="Test" finished-at="2023-07-11T16:59:17 IST" duration-ms="130647">
+      <class name="testNGCrossBrowser.CrossBrowsertesting">
+        <test-method signature="cbTest(java.lang.String)[pri:0, instance:testNGCrossBrowser.CrossBrowsertesting@139982de]" started-at="2023-07-11T16:57:07 IST" name="cbTest" finished-at="2023-07-11T16:59:17 IST" duration-ms="129437" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[TC Fail String not match expected [pallu12345] but found [Pallavi Chaudhari]]]>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@id='central-login-module-sign-mobile'])[2]"}
+  (Session info: MicrosoftEdge=109.0.1518.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'b19b418e60'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8b5eedb7ad1eb627a217ba3799aeedcc, findElement {using=xpath, value=(//input[@id='central-login-module-sign-mobile'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.115, ms:edgeOptions: {debuggerAddress: localhost:61432}, msedge: {msedgedriverVersion: 109.0.1518.78 (4e4b32c38163..., userDataDir: C:\Users\Palya\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61432/devtoo..., se:cdpVersion: 109.0.1518.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b5eedb7ad1eb627a217ba3799aeedcc]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: TC Fail String not match expected [pallu12345] but found [Pallavi Chaudhari]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1578)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at testNGVerification.PolicyBazarVerify.verifyUN(PolicyBazarVerify.java:66)
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@id='central-login-module-sign-mobile'])[2]"}
+  (Session info: MicrosoftEdge=109.0.1518.115)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.3', revision: 'b19b418e60'
+System info: os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '17.0.3.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8b5eedb7ad1eb627a217ba3799aeedcc, findElement {using=xpath, value=(//input[@id='central-login-module-sign-mobile'])[2]}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 109.0.1518.115, ms:edgeOptions: {debuggerAddress: localhost:61432}, msedge: {msedgedriverVersion: 109.0.1518.78 (4e4b32c38163..., userDataDir: C:\Users\Palya\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61432/devtoo..., se:cdpVersion: 109.0.1518.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8b5eedb7ad1eb627a217ba3799aeedcc
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at testNGCrossBrowser.CrossBrowsertesting.cbTest(CrossBrowsertesting.java:46)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -202,43 +84,11 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
-            <line>
-              <![CDATA[TC executions is Start...]]>
-            </line>
-            <line>
-              <![CDATA[get User Name...]]>
-            </line>
-            <line>
-              <![CDATA[Wait for sometimes...]]>
-            </line>
-            <line>
-              <![CDATA[take input from excel...]]>
-            </line>
-            <line>
-              <![CDATA[Screenshot is capture...]]>
-            </line>
-            <line>
-              <![CDATA[Tc is fail...]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- verifyUN -->
-        <test-method is-config="true" signature="logoutApp()[pri:0, instance:testNGVerification.PolicyBazarVerify@b2c9a9c]" started-at="2023-07-04T20:53:55 IST" name="logoutApp" finished-at="2023-07-04T20:53:56 IST" duration-ms="728" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Logout Applications..]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- logoutApp -->
-        <test-method is-config="true" signature="CloseBrow()[pri:0, instance:testNGVerification.PolicyBazarVerify@b2c9a9c]" started-at="2023-07-04T20:53:56 IST" name="CloseBrow" finished-at="2023-07-04T20:54:00 IST" duration-ms="4640" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Close browser window....]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- CloseBrow -->
-      </class> <!-- testNGVerification.PolicyBazarVerify -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- cbTest -->
+      </class> <!-- testNGCrossBrowser.CrossBrowsertesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

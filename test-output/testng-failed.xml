@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="edge"/>
     <classes>
-      <class name="testNGVerification.PolicyBazarVerify">
+      <class name="testNGCrossBrowser.CrossBrowsertesting">
         <methods>
-          <include name="loginProcess"/>
-          <include name="lanuchPolicyBazaar"/>
-          <include name="CloseBrow"/>
-          <include name="verifyUN"/>
-          <include name="logoutApp"/>
+          <include name="cbTest" invocation-numbers="0"/>
         </methods>
-      </class> <!-- testNGVerification.PolicyBazarVerify -->
+      </class> <!-- testNGCrossBrowser.CrossBrowsertesting -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
